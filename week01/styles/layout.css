@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Layout Sections */
+header {
+    grid-area: header;
+    background: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    grid-area: main;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+aside {
+    grid-area: aside;
+    background: #ddd;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Flexbox for Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #003399;
+}

@@ -1,0 +1,100 @@
+
+body{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    
+}
+header{
+    grid-area: header;
+    background: #0044cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    padding: 15px;
+    margin-bottom: 0;
+   
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+}
+main{
+    grid-area: main;
+    background: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+main .card{
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+}
+main .card h2{
+    background: blue;
+    margin: 0;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+.abt-me{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 900px;;
+}
+.abt-me img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.abt-me p{
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px;
+}
+.courses{
+    max-width: 400px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p{
+    color: #f4f4f4;
+    padding: 15px;
+}
+.cont{
+    padding-left: 20px;
+
+}
+.cont a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.cont a:hover{
+    color: #0044cc;
+}
