@@ -1,0 +1,13 @@
+@media (min-width: 700px) {
+    section.album{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navMenu{
+        display: flex;
+    }
+    a.icon{
+        display: none;
+    }
+    
+}

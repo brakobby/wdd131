@@ -1,0 +1,59 @@
+header{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header span{
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+header nav{
+    display: none;
+}
+nav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+nav a:hover{
+    background: rgb(55, 59, 55);
+}
+header .icon{
+    color: white;
+    right: 0;
+    top: 0;
+    padding: 3px;
+}
+main h1{
+    text-align: center;
+}
+section.album{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 3rem;
+  
+}
+figure img{
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: #333;
+
+}
+footer p{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
