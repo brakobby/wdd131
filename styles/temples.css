@@ -37,7 +37,7 @@ main h1{
 section.album{
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 3rem;
+   
   
 }
 figure img{
